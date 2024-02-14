@@ -6,70 +6,32 @@ import PricingCard from "@components/pricing.astro";
 
 const pricing = [
   {
-    name: "Personal",
+    name: "Digital Consultation",
     price: "Free",
     popular: false,
     features: [
-      "Lifetime free",
-      "Up to 3 users",
-      "Unlimited Pages",
-      "Astro Sub domain",
+      "Business Idea",
+      "Digital Transformation",
+      "Planning",
+      "Design Mockups",
       "Basic Integrations",
       "Community Support",
     ],
     button: {
-      text: "Get Started",
+      text: "Proceed",
       link: "/",
     },
   },
-  {
-    name: "Startup",
-    price: {
-      monthly: "$19",
-      annual: "$16",
-      discount: "10%",
-      original: "$24",
-    },
-    popular: true,
-    features: [
-      "All Free Features",
-      "Up to 20 users",
-      "20 Custom domains",
-      "Unlimited Collaborators",
-      "Advanced Integrations",
-      "Priority Support",
-    ],
-    button: {
-      text: "Get Started",
-      link: "#",
-    },
-  },
-  {
-    name: "Enterprise",
-    price: "Custom",
-    popular: false,
-    features: [
-      "All Pro Features",
-      "Unlimited Custom domains",
-      "99.99% Uptime SLA",
-      "SAML & SSO Integration",
-      "Dedicated Account Manager",
-      "24/7 Phone Support",
-    ],
-    button: {
-      text: "Contact us",
-      link: "/contact",
-    },
-  },
+
 ];
 ---
 
-<Layout title="Pricing">
+<Layout title="Consultation">
   <Container>
     <Sectionhead>
       <Fragment slot="title">Pricing</Fragment>
       <Fragment slot="desc">
-        Simple & Predictable pricing. No Surprises.
+        Free, completely free to talk to us 
       </Fragment>
     </Sectionhead>
 
