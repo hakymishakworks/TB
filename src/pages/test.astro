@@ -18,15 +18,25 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
       <Fragment slot="desc">See what we have been up to.</Fragment>
     </Sectionhead>
 
-    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
-      <h2 class="font-bold text-3xl text-gray-800">
-        Redefine Digital Transformation with Telify Bits.
-      </h2>
-      <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
-      </p>
+    <div class="flex flex-wrap gap-6 justify-center mt-8">
+      <!-- Column 1 -->
+      <div class="flex flex-col items-center">
+        <img src="image1.jpg" alt="Image 1" class="w-64 h-64 object-cover">
+        <p class="mt-2 text-sm text-center">Description for Image 1</p>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="flex flex-col items-center">
+        <img src="image2.jpg" alt="Image 2" class="w-64 h-64 object-cover">
+        <p class="mt-2 text-sm text-center">Description for Image 2</p>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="flex flex-col items-center">
+        <img src="image3.jpg" alt="Image 3" class="w-64 h-64 object-cover">
+        <p class="mt-2 text-sm text-center">Description for Image 3</p>
+      </div>
     </div>
   </Container>
 </Layout>
+
